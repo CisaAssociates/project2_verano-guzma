@@ -32,7 +32,7 @@ CREATE TABLE `device_states` (
   `device_name` varchar(50) DEFAULT NULL,
   `status` tinyint(1) DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 --
 -- Dumping data for table `device_states`
@@ -97,7 +97,7 @@ CREATE TABLE `sensor_readings` (
   `dht22_temp` float DEFAULT NULL,
   `dht22_hum` float DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+);
 
 --
 -- Dumping data for table `sensor_readings`
